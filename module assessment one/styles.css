@@ -1,0 +1,143 @@
+* {
+    background-color: rgba(0, 0, 0, 0.971);
+    box-sizing: border-box;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #e8d9d9;
+}
+
+navbar.fixed{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+ 
+
+}
+
+.navbar navbar {
+    position: fixed;
+    top: 1px;
+}
+
+.navbar-brand {
+    color: rgb(156, 235, 134);
+
+}
+
+.navbar-brand:hover {
+    font-size: 31px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #eb57bc;
+
+}
+.navbar-nav{
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+.navbar .nav-link {
+    margin-left: 31px;
+    color: aquamarine;
+    display: flex;
+    align-items: end;
+}
+
+.navbar .nav-link:hover {
+    color: #e4a1a1;
+    font-size: 31px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    margin-left: 46%;
+    color: rgb(7, 107, 73);
+    padding-bottom: 3px;
+    z-index: 1000;
+}
+
+.style {
+    color: rgb(8, 74, 10);
+}
+
+.text-center {
+    margin-top: 50px;
+}
+
+#text3 {
+    padding-right: 113px;
+}
+
+#text2 {
+    margin-left: 251px;
+    border-radius: 33px;
+
+
+}
+
+.lorem {
+    padding-left: 1%;
+    padding-right: 13px;
+}
+
+table {
+    width: 60%;
+    text-align: center;
+    border: 10px solid rebeccapurple;
+    box-shadow: 13px 0px 13px 13px cadetblue;
+}
+
+.style:hover {
+    font-size: 57px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+
+
+}
+
+.card {
+    margin-top: 53px;
+    border: none;
+}
+.card:hover{
+    height: 331px;
+    width: 345px;
+}
+
+.about {
+    height: 11px;
+}
+
+
+
+.card {
+    border-radius: 30px;
+    box-shadow: 33px grey;
+
+}
+
+.container-fluid .contact {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 31px;
+    padding-bottom: 31px;
+    background-color: rgb(0, 0, 0);
+    height: 13px;
+}
+
+
+.contact-me {
+
+    background-color: rgb(0, 0, 0);
+    margin-left: 31px;
+    margin-top: 31px;
+    margin-bottom: 31px;
+padding-bottom: 31px;
+color: #000;
+}
+button{
+    align-items: center;
+    gap:33px;
+    margin-left: 513px;
+}
